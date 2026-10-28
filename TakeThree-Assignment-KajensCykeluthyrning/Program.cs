@@ -1,8 +1,8 @@
 ﻿using TakeThree_Assignment_KajensCykeluthyrning;
 using System.Globalization;
-Console.OutputEncoding = System.Text.Encoding.UTF8; //så coola emoticons syns hihebehehe
+Console.OutputEncoding = System.Text.Encoding.UTF8; //så coola emoticons syns hihebehehe 
 
-CultureInfo.CurrentCulture = new CultureInfo("sv-SE");
+CultureInfo.CurrentCulture = new CultureInfo("sv-SE"); // TEST 
 
 var service = new RentalService();
 bool running = true;
